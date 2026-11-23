@@ -163,21 +163,3 @@ Este notebook:
 
 Las búsquedas de hiperparámetros utilizan validación cruzada estratificada de cinco pliegues y `refit="f1"`. La selección de hiperparámetros se realiza con los datos de entrenamiento; el conjunto de prueba se conserva para la evaluación final.
 
-## 7. Resultados principales
-
-Los archivos CSV con los resultados detallados se encuentran en `reports/`. En el conjunto de prueba de 86 registros se obtuvieron los siguientes valores:
-
-| Modelo | Accuracy | Precision | Recall | F1 | ROC-AUC |
-|---|---:|---:|---:|---:|---:|
-| Regresión logística | 97.67% | 96.88% | 96.88% | 96.88% | 99.88% |
-| Gaussian Naive Bayes | 94.19% | 100.00% | 84.38% | 91.53% | 100.00% |
-| SVM | 95.35% | 100.00% | 87.50% | 93.33% | 100.00% |
-| MLP | 100.00% | 100.00% | 100.00% | 100.00% | 100.00% |
-
-En validación cruzada, la regresión logística obtuvo el mayor F1 promedio (97.57% ± 0.88 puntos porcentuales). MLP alcanzó 100% en esta partición de prueba, pero su F1 promedio en validación cruzada fue 94.72%. Por tanto, el resultado perfecto en 86 registros no demuestra generalización perfecta ni superioridad clínica.
-
-## 8. Consultar un modelo entrenado sin volver a entrenar
-
-Los artefactos `.joblib` incluidos permiten cargar los modelos guardados. 
-
-
