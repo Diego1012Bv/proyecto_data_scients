@@ -1,0 +1,12 @@
+Modelo,ID,Diagnostico_real,Diagnostico_predicho,Tipo_error,radius1,perimeter1,area1,concavity1,concave_points1
+Regresión Logística,879523,Maligno,Benigno,Falso negativo,15.12,98.78,716.6,0.0755,0.04079
+Regresión Logística,9112085,Benigno,Maligno,Falso positivo,13.38,86.34,557.2,0.02819,0.03264
+Gaussian Naive Bayes,86135501,Maligno,Benigno,Falso negativo,14.48,94.25,648.2,0.1204,0.04938
+Gaussian Naive Bayes,879523,Maligno,Benigno,Falso negativo,15.12,98.78,716.6,0.0755,0.04079
+Gaussian Naive Bayes,862548,Maligno,Benigno,Falso negativo,14.42,94.48,642.5,0.09388,0.05839
+Gaussian Naive Bayes,87163,Maligno,Benigno,Falso negativo,13.43,85.84,565.4,0.05858,0.03438
+Gaussian Naive Bayes,855138,Maligno,Benigno,Falso negativo,13.48,88.4,559.2,0.1063,0.05439
+SVM,86135501,Maligno,Benigno,Falso negativo,14.48,94.25,648.2,0.1204,0.04938
+SVM,879523,Maligno,Benigno,Falso negativo,15.12,98.78,716.6,0.0755,0.04079
+SVM,862548,Maligno,Benigno,Falso negativo,14.42,94.48,642.5,0.09388,0.05839
+SVM,87163,Maligno,Benigno,Falso negativo,13.43,85.84,565.4,0.05858,0.03438

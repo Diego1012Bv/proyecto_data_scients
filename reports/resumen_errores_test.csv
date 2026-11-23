@@ -1,0 +1,5 @@
+Modelo,Falsos_positivos,Falsos_negativos,Total_errores,IDs_incorrectos
+Regresión Logística,1,1,2,"879523, 9112085"
+Gaussian Naive Bayes,0,5,5,"86135501, 879523, 862548, 87163, 855138"
+SVM,0,4,4,"86135501, 879523, 862548, 87163"
+MLP,0,0,0,Ninguno

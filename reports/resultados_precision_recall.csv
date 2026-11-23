@@ -1,0 +1,5 @@
+Modelo,Average_Precision
+Regresión Logística,0.998076
+Gaussian Naive Bayes,1.000000
+SVM,1.000000
+MLP,1.000000
